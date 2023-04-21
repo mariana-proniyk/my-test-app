@@ -1,0 +1,39 @@
+.root {
+	margin-top: 30px;
+	max-width: 400px;
+	width: 100%;
+	margin-bottom: 50px;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+	&.is-active {
+		.comment-wrapper {
+			display: block;
+		}
+	}
+}
+
+.title {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.body {
+	font-size: 22px;
+}
+
+.button {
+	background-color: #fff !important;
+	color: #000 !important;
+	transition: all 400ms ease-in-out !important;
+	border: 1px solid #000 !important;
+	margin-bottom: 30px !important;
+	&:hover {
+		background-color: #000 !important;
+		color: #fff !important;
+	}
+}
+
+.comment-wrapper {
+	display: none;
+}
